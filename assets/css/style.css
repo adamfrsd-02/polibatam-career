@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  color: #183a64;
+}
+
+.header-title {
+  font-family: "Yeseva One";
+  font-size: 5vh;
+  color: #183a64 !important;
+}
+
+.company {
+  background-color: #ebebeb;
+  padding: 10px 0px;
+}
+
+.btn-primary {
+  border-radius: 10px;
+  width: 240px;
+  height: 70px;
+  background-color: #183a64;
+  border-color: none !important;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-style: none;
+}
+
+.btn-primary {
+  border-radius: 10px;
+  width: 240px;
+  height: 70px;
+  background-color: #183a64;
+  border-color: none !important;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-style: none;
+}
+
+.btn-secondary {
+  border-style: none;
+  border-radius: 10px;
+  width: auto;
+  height: 60px;
+  background-color: #ff9035;
+  border-color: none !important;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn-secondary:hover {
+  background-color: #fdb479;
+  color: rgb(77, 77, 77);
+}
+
+.rounded-md {
+  border-radius: 10% !important;
+}
+
+.text-blue {
+  color: #183a64 !important;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-xl {
+  font-size: 36px;
+}
+
+.text-md {
+  font-size: 24px;
+}
+
+.btn-outline-blue {
+  font-weight: 600;
+  color: #183a64;
+  border: solid 2px #183a64;
+}
+
+.btn-outline-blue:hover {
+  color: white;
+  background-color: #183a64;
+}
+
+.bg-myblue {
+  background-color: #183a64;
+}
+.bg-myorange {
+  background-color: #ff9035;
+}
+
+.label-wrapper {
+  padding: 2px;
+}
+
+.label {
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  height: 25px;
+}
+
+.label-orange {
+  color: white;
+  background-color: #feca54;
+}
+
+.label-blue {
+  color: white;
+  background-color: #183a64a1;
+}
+
+.contact-us {
+  background-color: #ebebeb;
+}
+
+.nav-linku {
+  text-decoration: none;
+  color: #183a64;
+}
+
+.header-subtitle {
+  font-size: 2.5vh;
+  font-weight: 300;
+  color: rgb(128, 128, 128);
+}
+
+.highlighted {
+  font-weight: 700;
+}
+
+.job-label {
+  border-radius: 15px;
+  background-color: #feca54;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.career-jobdesc {
+  color: #183a64;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 3vh;
+  margin-bottom: -0.5px;
+}
+
+.job-overview {
+  text-align: justify;
+}
+
+/* stepper */
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.step-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: solid 2px #64d073;
+  background-color: white;
+  transition: 0.4s;
+  margin-top: 27px;
+  font-size: 12px;
+}
+
+.step-title {
+  font-size: 2.5vh;
+}
+
+.step-button[aria-expanded="true"] {
+  width: 30px;
+  height: 30px;
+  background-color: #64d073;
+  color: #fff;
+  margin-top: -27px;
+}
+.done {
+  background-color: #64d073;
+  color: #fff;
+}
+.step-item {
+  z-index: 10;
+  margin-top: auto;
+  text-align: center;
+}
+#progress {
+  -webkit-appearance: none;
+  position: absolute;
+  width: 95%;
+  z-index: 5;
+  height: 10px;
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+  background-color: blue;
+  transition: 0.5s ease;
+}
+#progress::-webkit-progress-bar {
+  background-color: #64d073;
+}
